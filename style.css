@@ -1,0 +1,130 @@
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1a1717;
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ceced1;
+}
+::selection {
+  color: #000;
+  background-color: #d8d8d8;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: #1a1717;
+  font-family: 'Montserrat', sans-serif;
+}
+.bg {
+  background: #ceced1;
+}
+body {
+  background: #ceced1;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.city-info {
+  font-size: 1rem;
+}
+.margin-negative {
+  margin-top: -1rem;
+}
+.sunriseSunset {
+  display: flex;
+  gap: 2rem;
+}
+.sun-img {
+  width: 50px;
+}
+.bg-custom {
+  background-color: #1a1717;
+}
+.header {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.header__city-search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+.header__input {
+  border: none;
+  width: 100%;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 10px 0 0 10px;
+  appearance: none;
+  margin-right: -15px;
+  border: 1px solid #000;
+}
+.header__button {
+  cursor: pointer;
+  min-width: 50px;
+  min-height: 50px;
+  border: none;
+  border-radius: 100%;
+  background: #1a1717;
+  color: #f3f4fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0 8px 16px -8px;
+  transition: 0.3s all ease-in-out;
+}
+.header__button:hover {
+  filter: brightness(1.25);
+  transform: scale(1.1);
+}
+
+.current-temperature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.current-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.current-temperature__weather-icon {
+  width: 150px;
+  margin-top: 15px;
+  transition: 0.3s all ease-in-out;
+}
+
+.current-temperature__weather-icon:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  color: #1a1717;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+a:hover .fab,
+a:hover .fas {
+  transform: scale(1.4);
+  transition: transform 0.3s ease-in-out;
+}
+
+a .fab,
+a .fas {
+  color: #1a1717;
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover .fab,
+a:hover .fas {
+  transform: scale(1.4);
+}
