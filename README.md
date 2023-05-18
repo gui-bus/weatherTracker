@@ -42,10 +42,6 @@ Gostaria de contribuir para o projeto? Fico muito grato pelo interesse!
 
 ## Fontes e agracimentos :handshake:
 Gostaria de expressar minha gratidão às seguintes fontes por sua contribuição para a criação deste projeto:
-
-A OpenWeatherMap por fornecer a API gratuita que possibilitou a obtenção dos dados meteorológicos em tempo real.
-
-
 - A **[OpenWeatherMap](https://openweathermap.org/)** por fornecer a API gratuita que possibilitou a obtenção dos dados meteorológicos em tempo real.
 
 - A **[OneBitCode](https://onebitcode.com/lp/)** por fornecer o conhecimento e as habilidades necessárias para a criação do site por meio do curso FullStack. <br><br>
